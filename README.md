@@ -1,9 +1,7 @@
 # Calculette
+pour lancer le projet chez soi executer la ccommande 'npm install' dans le repertoire de ce projet
 
-## ENGLISH
-
-Training : Calculator made with Angular _(BehaviorSubject, Subscription from rxjs)_
-
-## FRANÇAIS
-
-Entraînement : Calculatrice faite avec Angular _(BehaviorSubject, Subscription depuis rxjs)_
+pour le deployer sur un serveur Xamp 
+- placer le dossier (Calculette) contenu dans dist dans le repertoire htdocs de votre serveur Xamp 
+- puis lancer votre serveur 
+- dans la barre de recherche de votre navigateur taper le lien suivant "http://localhost/calculette/"
