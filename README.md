@@ -1,4 +1,5 @@
 # Calculette
+ce code est une calculatrice elementaire ecrite Avec le framework Angular
 pour lancer le projet chez soi executer la ccommande 'npm install' dans le repertoire de ce projet
 
 pour le deployer sur un serveur Xamp 
