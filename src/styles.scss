@@ -1,0 +1,85 @@
+@import "libs/reset";
+@import "libs/variables";
+
+.cadre {
+	width: 85vh;
+	background-color: $PrimColor;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #fff inset;
+}
+.screen {
+	height: 40vh;
+	width: 70vh;
+	background-color: #acb2a4;
+	justify-content: flex-end;
+	border: 3px solid #000;
+	border-radius: 8px;
+	box-shadow: -3px -3px 5px #888 inset;
+	p {
+		font-size: 1.5rem;
+	}
+}
+
+.noir {
+	background-color: #000;
+	p {
+		color: #000;
+	}
+}
+
+.keys {
+	flex-wrap: wrap;
+	flex: 1 1 80%;
+	width: 55vh;
+}
+
+.operators {
+	flex: 1 1 20%;
+
+	.key {
+		background-color: $AccColor;
+	}
+}
+
+.start {
+	width: 70vh;
+	padding: 2px;
+	background-color: #393536;
+	border-radius: 10px;
+	li {
+		padding: 3px;
+		box-shadow: 3px 3px 3px #111;
+	}
+}
+
+.equal {
+	width: 60vh;
+
+	li:first-child {
+		flex: 1 1 30%;
+	}
+	li:last-child {
+		flex: 1 1 70%;
+	}
+
+	.key {
+		color: #fff;
+		background-color: #444;
+	}
+}
+
+.key {
+	font-size: 1.5rem;
+	flex: 1 1 25%;
+	color: #222;
+	background-color: $ScnColor;
+	border-radius: 5px;
+	text-align: center;
+	margin: 5px;
+	box-shadow: 3px 3px 0px #333;
+
+	&:hover {
+		box-shadow: none;
+	}
+	transition: all 0.3s;
+}
